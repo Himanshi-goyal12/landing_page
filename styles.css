@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color:rgb(50, 174, 85);
+}
+
+.header {
+    background-image: url('barbecue\ salad.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+#about{
+    font-size: 25px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #41188e;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff5252;
+}
+
+.menu-section, .about-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-section h2, .about-section h2, .contact-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu-items h3{
+    font-size: 25px;
+}
+.menu-items p{
+    font-size: 15px;
+}
+
+.menu-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: rgb(50, 174, 85);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(50, 174, 85);
+}
+
+.services-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    max-width: 300px;
+    padding: 20px;
+    background-color: lightgreen;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+}
+.contact-section p{
+     font-size: 20px;
+}
